@@ -16,7 +16,7 @@ export function TaskList() {
     return (
         <div className="grid grid-cols-3 gap-3">
             {tasks.map(tasks => (
-                <TaskCard key={task.id} task={task} />
+                <TaskCard key={tasks.id} tasks={tasks} />
             ))}
         </div>
     );
